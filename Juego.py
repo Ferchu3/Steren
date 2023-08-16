@@ -118,20 +118,20 @@ while game_over==False:
         else:
             objeto_pos[1]=0
             objeto_pos[0]=random.randint(26,668)
-    if Timer >=5:
+    if Timer >=7:
         if objeto_pos1[1]>=0 and objeto_pos1[1] < 500:
             objeto_pos1[1] +=12
         else:
             objeto_pos1[1]=0
             objeto_pos1[0]=random.randint(29,668)
     
-    if Timer >=10:
+    if Timer >=14:
         if objeto_pos2[0]>=0 and objeto_pos2[0] < 676:
             objeto_pos2[0] +=12
         else:
             objeto_pos2[0]=0
             objeto_pos2[1]=random.randint(23,479)
-    if Timer >=15:
+    if Timer >=20:
         if objeto_pos3[0]>=0 and objeto_pos3[0] < 676:
             objeto_pos3[0] -=12
         else:
